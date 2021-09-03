@@ -7,8 +7,9 @@ import { TYPE_COLORS } from '../utils/colors';
 import es from '../Translates/es'
 import en from '../Translates/en'
 
-counterpart.registerTranslations('en', en);
+
 counterpart.registerTranslations('es', es);
+counterpart.registerTranslations('en', en);
 counterpart.setLocale('es');
 
 export default class Pokemon extends Component {

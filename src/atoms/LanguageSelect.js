@@ -3,8 +3,9 @@ import counterpart from 'counterpart';
 import es from '../Translates/es'
 import en from '../Translates/en'
 
-counterpart.registerTranslations('es', en);
-counterpart.registerTranslations('en', es);
+
+counterpart.registerTranslations('es', es);
+counterpart.registerTranslations('en', en);
 counterpart.setLocale('es');
 
 class LanguageSelect extends Component {
