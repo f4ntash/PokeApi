@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
-  "Hp": "vida",
+  "Hp": "Vida",
   "Attack": "Ataque",
   "Defense": "Defensa",
   "Speed": "Velocidad",
